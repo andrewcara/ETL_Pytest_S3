@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "etl run",
+            "type": "python",
+            "python": "/Users/andrewcaravaggio/.local/share/virtualenvs/ETL-_uF7mgdp/bin/python3",
+            "request": "launch",
+            "program": "/Users/andrewcaravaggio/SideProjects/ETL/run.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["/Users/andrewcaravaggio/SideProjects/ETL/configs/xetra_report1_config.yaml"],
+            "env": {
+                "PYTHONPATH": "${/Users/andrewcaravaggio/SideProjects/ETL}"
+            },
+        },
+    ]
+}
